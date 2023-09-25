@@ -7,7 +7,7 @@
 
       stage ('unit tests') {
         steps {
-         exho 'unit tests'
+         echo 'unit tests'
         }
       }
       stage ('Code Analysis') {
